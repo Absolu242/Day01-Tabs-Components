@@ -7,7 +7,7 @@ With this method it is possible to create mostly any kind of tabs navigation
 
 Here is a screenshot
 
-[image](Image/image.png)
+![image](Image/image.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
