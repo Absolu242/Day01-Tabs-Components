@@ -1,0 +1,90 @@
+$golden: #d8a252;
+$btnBkg: #f7f7f7;
+$grey: #838c8e;
+$darkGrey: #3b3d40;
+$lightGrey: #a2a9aa;
+$blue: #007cbf;
+$green: #37a871;
+html {
+    font-size: 10px;
+}
+
+.tabsVertical {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 2px $lightGrey;
+    &__container {
+        width: inherit;
+        height: 300px;
+        background-color: #fff;
+    }
+    &__head {
+        display: flex;
+        width: inherit;
+    }
+    &__btn {
+        width: inherit;
+        padding: 1.6rem 0;
+        font-weight: bold;
+        color: $grey;
+        border: none;
+        background-color: $btnBkg;
+        border-bottom: 0.5px solid $lightGrey;
+        outline: none;
+        &.active {
+            color: $darkGrey;
+            background-color: #fff;
+            border: none;
+        }
+        &.second {
+            border-left: 0.5px solid $lightGrey;
+            border-right: 0.5px solid $lightGrey;
+        }
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 80%;
+        &--left {
+            width: 55%;
+            padding: 0 1rem;
+            span.tag {
+                background-color: $golden;
+                padding: 0.2rem;
+                font-weight: bold;
+                color: #fff;
+                border-radius: 3px;
+                letter-spacing: 2px;
+            }
+            h1 {
+                font-size: 2.3rem;
+                line-height: 1rem;
+                color: $darkGrey;
+            }
+            p {
+                font-size: 1.5rem;
+                text-align: left;
+                color: $lightGrey;
+            }
+            button.more {
+                background: none;
+                padding: 0.6rem 1.8rem;
+                border-radius: 2rem;
+                border: 1px solid $lightGrey;
+                letter-spacing: 2px;
+                font-weight: bold;
+                font-size: 1rem;
+                color: $darkGrey;
+                cursor: pointer;
+            }
+        }
+        img {
+            width: 130px;
+            height: 130px;
+            border-radius: 5px;
+        }
+    }
+}

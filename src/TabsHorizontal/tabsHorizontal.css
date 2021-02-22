@@ -1,0 +1,114 @@
+html {
+  font-size: 10px;
+}
+
+.tabsHorizontal {
+  width: 500px;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 4px 2px #a2a9aa;
+          box-shadow: 2px 2px 4px 2px #a2a9aa;
+}
+
+.tabsHorizontal__container {
+  width: inherit;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabsHorizontal__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35%;
+}
+
+.tabsHorizontal__btn {
+  width: 100%;
+  padding: 2.5rem 0;
+  font-weight: bold;
+  color: #838c8e;
+  border: none;
+  background-color: #f7f7f7;
+  border-bottom: 0.5px solid #a2a9aa;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.tabsHorizontal__btn.active {
+  color: #3b3d40;
+  background-color: #fff;
+  border: none;
+}
+
+.tabsHorizontal__btn.last {
+  border: none;
+}
+
+.tabsHorizontal__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+
+.tabsHorizontal__content--left {
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.tabsHorizontal__content--left span.tag {
+  background-color: #d8a252;
+  padding: 0.2rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+
+.tabsHorizontal__content--left h1 {
+  font-size: 2.3rem;
+  line-height: 1rem;
+  color: #3b3d40;
+}
+
+.tabsHorizontal__content--left p {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #a2a9aa;
+}
+
+.tabsHorizontal__content--left button.more {
+  background: none;
+  padding: 0.6rem 1.8rem;
+  border-radius: 2rem;
+  border: 1px solid #a2a9aa;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #3b3d40;
+  cursor: pointer;
+}
+
+.tabsHorizontal__content img {
+  display: none;
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=tabsHorizontal.css.map */

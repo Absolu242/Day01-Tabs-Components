@@ -1,0 +1,106 @@
+html {
+  font-size: 10px;
+}
+
+.tabsVertical {
+  width: 500px;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 4px 2px #a2a9aa;
+          box-shadow: 2px 2px 4px 2px #a2a9aa;
+}
+
+.tabsVertical__container {
+  width: inherit;
+  height: 300px;
+  background-color: #fff;
+}
+
+.tabsVertical__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: inherit;
+}
+
+.tabsVertical__btn {
+  width: inherit;
+  padding: 1.6rem 0;
+  font-weight: bold;
+  color: #838c8e;
+  border: none;
+  background-color: #f7f7f7;
+  border-bottom: 0.5px solid #a2a9aa;
+  outline: none;
+}
+
+.tabsVertical__btn.active {
+  color: #3b3d40;
+  background-color: #fff;
+  border: none;
+}
+
+.tabsVertical__btn.second {
+  border-left: 0.5px solid #a2a9aa;
+  border-right: 0.5px solid #a2a9aa;
+}
+
+.tabsVertical__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: 80%;
+}
+
+.tabsVertical__content--left {
+  width: 55%;
+  padding: 0 1rem;
+}
+
+.tabsVertical__content--left span.tag {
+  background-color: #d8a252;
+  padding: 0.2rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+
+.tabsVertical__content--left h1 {
+  font-size: 2.3rem;
+  line-height: 1rem;
+  color: #3b3d40;
+}
+
+.tabsVertical__content--left p {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #a2a9aa;
+}
+
+.tabsVertical__content--left button.more {
+  background: none;
+  padding: 0.6rem 1.8rem;
+  border-radius: 2rem;
+  border: 1px solid #a2a9aa;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #3b3d40;
+  cursor: pointer;
+}
+
+.tabsVertical__content img {
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=TabsVertical.css.map */
