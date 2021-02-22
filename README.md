@@ -7,7 +7,7 @@ With this method it is possible to create mostly any kind of tabs navigation
 
 Here is a screenshot
 
-![Alt text](relative/path/to/Image/image.png?raw=true "Title")
+![Alt text](relative/path/to/image.png?raw=true "Title")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
